@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>DynamicDataDisplayWpf</id>
+    <version>0.4.0</version>
+    <title>Dynamic Data Display for WPF</title>
+    <authors>Microsoft Research</authors>
+    <owners>Microsoft Research</owners>
+    <licenseUrl>http://d3future.codeplex.com/license</licenseUrl>
+    <projectUrl>http://d3future.codeplex.com/</projectUrl>
+    <iconUrl>http://download-codeplex.sec.s-msft.com/Download?ProjectName=d3future&amp;DownloadId=172135&amp;Build=20959</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>DynamicDataDisplay is a library of WPF controls for dynamic data visualization. It features efficient binding mechanisms and real-time interactivity capable of charting millions of data points.</description>
+    <summary />
+  </metadata>
+</package>

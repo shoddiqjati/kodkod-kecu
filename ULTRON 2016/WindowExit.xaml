@@ -1,0 +1,13 @@
+﻿<Window x:Name="ExitWindow" x:Class="ULTRON_2016.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Height="101.973" Width="249" ResizeMode="NoResize" Topmost="True" WindowStartupLocation="CenterScreen" AllowsTransparency="True" WindowStyle="None" Opacity="0.9" Visibility="Visible" Foreground="{x:Null}" BorderThickness="3" Icon="icon.ico">
+    <Window.Background>
+        <ImageBrush ImageSource="backgrounds.png"/>
+    </Window.Background>
+    <Grid Margin="0,0,0,21">
+        <Label Content="Do you really want to exit now?" HorizontalAlignment="Left" Height="36" Margin="22,10,0,0" VerticalAlignment="Top" Width="221" Foreground="#FF008CCF" FontFamily="Adobe Fan Heiti Std B" FontSize="13" FontWeight="Bold" Background="Transparent"/>
+        <Button x:Name="buttonexit" Content="Yes" HorizontalAlignment="Left" Height="24" Margin="30,51,0,0" VerticalAlignment="Top" Width="71" Background="White" BorderBrush="#FF0E0E0E" Foreground="#FF008CCF" FontFamily="Source Code Pro Black" FontSize="14" Click="buttonexit_Click"/>
+        <Button x:Name="buttonexitNo" Content="No" HorizontalAlignment="Left" Height="24" Margin="133,51,0,0" VerticalAlignment="Top" Width="71" Background="White" BorderBrush="#FF0E0E0E" Foreground="#FF008CCF" FontFamily="Source Code Pro Black" FontSize="14" Click="buttonexitNo_Click"/>
+
+    </Grid>
+</Window>
