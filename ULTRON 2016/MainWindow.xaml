@@ -209,6 +209,7 @@
                         <Label Content="Elevasi" HorizontalAlignment="Left" Height="25" FontFamily="Roboto" Foreground="#B2FFFFFF"/>
                         <Label Content="Temperatur" HorizontalAlignment="Left" Height="25" FontFamily="Roboto" Foreground="#B2FFFFFF"/>
                         <Label Content="Tekanan" HorizontalAlignment="Left" Height="25" FontFamily="Roboto" Foreground="#B2FFFFFF"/>
+                        <Label Content="Kecepatan" HorizontalAlignment="Left" Height="25" FontFamily="Roboto" Foreground="#B2FFFFFF"/>
                         <Label Content="Yaw" HorizontalAlignment="Left" Height="25" FontFamily="Roboto" Foreground="#B2FFFFFF" Margin="0,10,0,0"/>
                         <Label Content="Pitch" HorizontalAlignment="Left" Height="25" FontFamily="Roboto" Foreground="#B2FFFFFF"/>
                         <Label Content="Roll" HorizontalAlignment="Left" Height="25" FontFamily="Roboto" Foreground="#B2FFFFFF"/>
@@ -220,6 +221,7 @@
                         <Rectangle x:Name="barElevasi" HorizontalAlignment="Left" Height="10" Width="20" Margin="0,15,0,0" Fill="#FFE2C26E"/>
                         <Rectangle x:Name="barTemperatur" HorizontalAlignment="Left" Height="10" Width="20" Fill="#FFE8EE79" Margin="0,15,0,0"/>
                         <Rectangle x:Name="barTekanan" HorizontalAlignment="Left" Height="10" Width="20" Fill="#FF8BEC6F" Margin="0,15,0,0"/>
+                        <Rectangle x:Name="barKecepatan" HorizontalAlignment="Left" Height="10" Width="20" Fill="Blue" Margin="0,15,0,0"/>
                         <Rectangle x:Name="barYaw" HorizontalAlignment="Left" Height="10" Width="20" Fill="#FF6F79DC" Margin="0,24,0,0"/>
                         <Rectangle x:Name="barPitch" HorizontalAlignment="Left" Height="10" Width="20" Fill="#FFAF74E0" Margin="0,15,0,0"/>
                         <Rectangle x:Name="barRoll" HorizontalAlignment="Left" Height="10" Width="20" Fill="#FFEA82DC" Margin="0,15,0,0"/>
@@ -231,6 +233,7 @@
                         <Label x:Name="lblElevasi" Content="0"  HorizontalAlignment="Right" Height="25" FontFamily="Roboto" FontWeight="Bold" Foreground="White"/>
                         <Label x:Name="lblTemperatur" Content="0"  HorizontalAlignment="Right" Height="25" FontFamily="Roboto" FontWeight="Bold" Foreground="White"/>
                         <Label x:Name="lblTekanan" Content="0"  HorizontalAlignment="Right" Height="25" FontFamily="Roboto" FontWeight="Bold" Foreground="White"/>
+                        <Label x:Name="lblKecepatan" Content="0"  HorizontalAlignment="Right" Height="25" FontFamily="Roboto" FontWeight="Bold" Foreground="White"/>
                         <Label x:Name="lblYaw" Content="0"  HorizontalAlignment="Right" Height="25" FontFamily="Roboto" FontWeight="Bold" Foreground="White" Margin="0,10,0,0"/>
                         <Label x:Name="lblPitch" Content="0"  HorizontalAlignment="Right" Height="25" FontFamily="Roboto" FontWeight="Bold" Foreground="White"/>
                         <Label x:Name="lblRoll" Content="0"  HorizontalAlignment="Right" Height="25" FontFamily="Roboto" FontWeight="Bold" Foreground="White"/>
@@ -240,6 +243,7 @@
                         <Label Content="°"  HorizontalAlignment="Left" Height="25" FontFamily="Roboto" FontWeight="Bold" Foreground="White"/>
                         <Label Content="°C"  HorizontalAlignment="Left" Height="25" FontFamily="Roboto" FontWeight="Bold" Foreground="White"/>
                         <Label Content="hPa"  HorizontalAlignment="Left" Height="25" FontFamily="Roboto" FontWeight="Bold" Foreground="White"/>
+                        <Label Content="m/s"  HorizontalAlignment="Left" Height="25" FontFamily="Roboto" FontWeight="Bold" Foreground="White"/>
                         <Label Content="°"  HorizontalAlignment="Left" Height="25" FontFamily="Roboto" FontWeight="Bold" Foreground="White" Margin="0,10,0,0"/>
                         <Label Content="°"  HorizontalAlignment="Left" Height="25" FontFamily="Roboto" FontWeight="Bold" Foreground="White"/>
                         <Label Content="°"  HorizontalAlignment="Left" Height="25" FontFamily="Roboto" FontWeight="Bold" Foreground="White"/>

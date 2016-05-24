@@ -165,3 +165,6 @@ C:\Users\P-CODE\Documents\Visual Studio 2015\Projects\ULTRON 2016\ULTRON 2016\ob
 C:\Users\P-CODE\Documents\Visual Studio 2015\Projects\ULTRON 2016\ULTRON 2016\obj\Debug\uk-UA\ULTRON 2016.resources.dll
 C:\Users\P-CODE\Documents\Visual Studio 2015\Projects\ULTRON 2016\ULTRON 2016\obj\Debug\zh-CN\ULTRON 2016.resources.dll
 C:\Users\P-CODE\Documents\Visual Studio 2015\Projects\ULTRON 2016\ULTRON 2016\obj\Debug\es-ES\ULTRON 2016.resources.dll
+E:\GMAT JUARA\kodkod-kecu\ULTRON 2016\bin\Debug\ULTRON 2016.exe.config
+E:\GMAT JUARA\kodkod-kecu\ULTRON 2016\obj\Debug\ULTRON 2016.exe
+E:\GMAT JUARA\kodkod-kecu\ULTRON 2016\obj\Debug\ULTRON 2016.pdb

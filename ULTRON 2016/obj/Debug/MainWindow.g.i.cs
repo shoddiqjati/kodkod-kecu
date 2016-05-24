@@ -154,7 +154,7 @@ namespace ULTRON_2016 {
         #line hidden
         
         
-        #line 219 "..\..\MainWindow.xaml"
+        #line 220 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Shapes.Rectangle barKetinggian;
         
@@ -162,7 +162,7 @@ namespace ULTRON_2016 {
         #line hidden
         
         
-        #line 220 "..\..\MainWindow.xaml"
+        #line 221 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Shapes.Rectangle barElevasi;
         
@@ -170,7 +170,7 @@ namespace ULTRON_2016 {
         #line hidden
         
         
-        #line 221 "..\..\MainWindow.xaml"
+        #line 222 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Shapes.Rectangle barTemperatur;
         
@@ -178,7 +178,7 @@ namespace ULTRON_2016 {
         #line hidden
         
         
-        #line 222 "..\..\MainWindow.xaml"
+        #line 223 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Shapes.Rectangle barTekanan;
         
@@ -186,17 +186,9 @@ namespace ULTRON_2016 {
         #line hidden
         
         
-        #line 223 "..\..\MainWindow.xaml"
-        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Shapes.Rectangle barYaw;
-        
-        #line default
-        #line hidden
-        
-        
         #line 224 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Shapes.Rectangle barPitch;
+        internal System.Windows.Shapes.Rectangle barKecepatan;
         
         #line default
         #line hidden
@@ -204,23 +196,23 @@ namespace ULTRON_2016 {
         
         #line 225 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Shapes.Rectangle barYaw;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 226 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Shapes.Rectangle barPitch;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 227 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Shapes.Rectangle barRoll;
-        
-        #line default
-        #line hidden
-        
-        
-        #line 230 "..\..\MainWindow.xaml"
-        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Controls.Label lblKetinggian;
-        
-        #line default
-        #line hidden
-        
-        
-        #line 231 "..\..\MainWindow.xaml"
-        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Controls.Label lblElevasi;
         
         #line default
         #line hidden
@@ -228,7 +220,7 @@ namespace ULTRON_2016 {
         
         #line 232 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Controls.Label lblTemperatur;
+        internal System.Windows.Controls.Label lblKetinggian;
         
         #line default
         #line hidden
@@ -236,7 +228,7 @@ namespace ULTRON_2016 {
         
         #line 233 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Controls.Label lblTekanan;
+        internal System.Windows.Controls.Label lblElevasi;
         
         #line default
         #line hidden
@@ -244,7 +236,7 @@ namespace ULTRON_2016 {
         
         #line 234 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Controls.Label lblYaw;
+        internal System.Windows.Controls.Label lblTemperatur;
         
         #line default
         #line hidden
@@ -252,7 +244,7 @@ namespace ULTRON_2016 {
         
         #line 235 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Controls.Label lblPitch;
+        internal System.Windows.Controls.Label lblTekanan;
         
         #line default
         #line hidden
@@ -260,13 +252,37 @@ namespace ULTRON_2016 {
         
         #line 236 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Label lblKecepatan;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 237 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Label lblYaw;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 238 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Label lblPitch;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 239 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Label lblRoll;
         
         #line default
         #line hidden
         
         
-        #line 248 "..\..\MainWindow.xaml"
+        #line 252 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Label lblTimer;
         
@@ -274,7 +290,7 @@ namespace ULTRON_2016 {
         #line hidden
         
         
-        #line 251 "..\..\MainWindow.xaml"
+        #line 255 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button btnRefresh;
         
@@ -282,7 +298,7 @@ namespace ULTRON_2016 {
         #line hidden
         
         
-        #line 311 "..\..\MainWindow.xaml"
+        #line 315 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Grid gridButton;
         
@@ -290,7 +306,7 @@ namespace ULTRON_2016 {
         #line hidden
         
         
-        #line 313 "..\..\MainWindow.xaml"
+        #line 317 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button btnPutus;
         
@@ -298,7 +314,7 @@ namespace ULTRON_2016 {
         #line hidden
         
         
-        #line 315 "..\..\MainWindow.xaml"
+        #line 319 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button btnKirim;
         
@@ -306,7 +322,7 @@ namespace ULTRON_2016 {
         #line hidden
         
         
-        #line 316 "..\..\MainWindow.xaml"
+        #line 320 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button btnCapture;
         
@@ -314,7 +330,7 @@ namespace ULTRON_2016 {
         #line hidden
         
         
-        #line 319 "..\..\MainWindow.xaml"
+        #line 323 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button btnMission;
         
@@ -322,7 +338,7 @@ namespace ULTRON_2016 {
         #line hidden
         
         
-        #line 320 "..\..\MainWindow.xaml"
+        #line 324 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button btnParasut;
         
@@ -330,7 +346,7 @@ namespace ULTRON_2016 {
         #line hidden
         
         
-        #line 321 "..\..\MainWindow.xaml"
+        #line 325 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button launchButton;
         
@@ -338,7 +354,7 @@ namespace ULTRON_2016 {
         #line hidden
         
         
-        #line 381 "..\..\MainWindow.xaml"
+        #line 385 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Grid tabLog;
         
@@ -346,7 +362,7 @@ namespace ULTRON_2016 {
         #line hidden
         
         
-        #line 383 "..\..\MainWindow.xaml"
+        #line 387 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.DataGrid datagridLog;
         
@@ -354,7 +370,7 @@ namespace ULTRON_2016 {
         #line hidden
         
         
-        #line 402 "..\..\MainWindow.xaml"
+        #line 406 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button buttonexit;
         
@@ -362,7 +378,7 @@ namespace ULTRON_2016 {
         #line hidden
         
         
-        #line 403 "..\..\MainWindow.xaml"
+        #line 407 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button buttonMinimize;
         
@@ -370,7 +386,7 @@ namespace ULTRON_2016 {
         #line hidden
         
         
-        #line 458 "..\..\MainWindow.xaml"
+        #line 462 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.TextBox terminalText;
         
@@ -378,7 +394,7 @@ namespace ULTRON_2016 {
         #line hidden
         
         
-        #line 467 "..\..\MainWindow.xaml"
+        #line 471 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal Microsoft.Research.DynamicDataDisplay.ChartPlotter TinggiPlot;
         
@@ -386,7 +402,7 @@ namespace ULTRON_2016 {
         #line hidden
         
         
-        #line 480 "..\..\MainWindow.xaml"
+        #line 484 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal Microsoft.Research.DynamicDataDisplay.ChartPlotter AccPlot;
         
@@ -394,7 +410,7 @@ namespace ULTRON_2016 {
         #line hidden
         
         
-        #line 491 "..\..\MainWindow.xaml"
+        #line 495 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal Microsoft.Research.DynamicDataDisplay.ChartPlotter GyroPlot;
         
@@ -402,7 +418,7 @@ namespace ULTRON_2016 {
         #line hidden
         
         
-        #line 502 "..\..\MainWindow.xaml"
+        #line 506 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button yprButton;
         
@@ -410,7 +426,7 @@ namespace ULTRON_2016 {
         #line hidden
         
         
-        #line 503 "..\..\MainWindow.xaml"
+        #line 507 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button elevasiButton;
         
@@ -418,7 +434,7 @@ namespace ULTRON_2016 {
         #line hidden
         
         
-        #line 504 "..\..\MainWindow.xaml"
+        #line 508 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button ketinggianButton;
         
@@ -426,7 +442,7 @@ namespace ULTRON_2016 {
         #line hidden
         
         
-        #line 507 "..\..\MainWindow.xaml"
+        #line 511 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Viewport3D Landasan3D;
         
@@ -434,7 +450,7 @@ namespace ULTRON_2016 {
         #line hidden
         
         
-        #line 521 "..\..\MainWindow.xaml"
+        #line 525 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Media.Media3D.ModelVisual3D DefaultGroup;
         
@@ -442,7 +458,7 @@ namespace ULTRON_2016 {
         #line hidden
         
         
-        #line 523 "..\..\MainWindow.xaml"
+        #line 527 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Media.Media3D.Model3DGroup group;
         
@@ -450,7 +466,7 @@ namespace ULTRON_2016 {
         #line hidden
         
         
-        #line 526 "..\..\MainWindow.xaml"
+        #line 530 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Media.Media3D.GeometryModel3D rocket3D;
         
@@ -458,7 +474,7 @@ namespace ULTRON_2016 {
         #line hidden
         
         
-        #line 2427 "..\..\MainWindow.xaml"
+        #line 2431 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Grid GridMap;
         
@@ -466,7 +482,7 @@ namespace ULTRON_2016 {
         #line hidden
         
         
-        #line 2428 "..\..\MainWindow.xaml"
+        #line 2432 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal Microsoft.Maps.MapControl.WPF.Map MyMap;
         
@@ -474,7 +490,7 @@ namespace ULTRON_2016 {
         #line hidden
         
         
-        #line 2430 "..\..\MainWindow.xaml"
+        #line 2434 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Label lblLatitude;
         
@@ -482,7 +498,7 @@ namespace ULTRON_2016 {
         #line hidden
         
         
-        #line 2431 "..\..\MainWindow.xaml"
+        #line 2435 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Label lblLongitude;
         
@@ -490,7 +506,7 @@ namespace ULTRON_2016 {
         #line hidden
         
         
-        #line 2438 "..\..\MainWindow.xaml"
+        #line 2442 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button logButton;
         
@@ -498,7 +514,7 @@ namespace ULTRON_2016 {
         #line hidden
         
         
-        #line 2439 "..\..\MainWindow.xaml"
+        #line 2443 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Label grafikLabel;
         
@@ -506,7 +522,7 @@ namespace ULTRON_2016 {
         #line hidden
         
         
-        #line 2440 "..\..\MainWindow.xaml"
+        #line 2444 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button visualButton;
         
@@ -607,225 +623,231 @@ namespace ULTRON_2016 {
             this.barTekanan = ((System.Windows.Shapes.Rectangle)(target));
             return;
             case 18:
-            this.barYaw = ((System.Windows.Shapes.Rectangle)(target));
+            this.barKecepatan = ((System.Windows.Shapes.Rectangle)(target));
             return;
             case 19:
-            this.barPitch = ((System.Windows.Shapes.Rectangle)(target));
+            this.barYaw = ((System.Windows.Shapes.Rectangle)(target));
             return;
             case 20:
-            this.barRoll = ((System.Windows.Shapes.Rectangle)(target));
+            this.barPitch = ((System.Windows.Shapes.Rectangle)(target));
             return;
             case 21:
-            this.lblKetinggian = ((System.Windows.Controls.Label)(target));
+            this.barRoll = ((System.Windows.Shapes.Rectangle)(target));
             return;
             case 22:
-            this.lblElevasi = ((System.Windows.Controls.Label)(target));
+            this.lblKetinggian = ((System.Windows.Controls.Label)(target));
             return;
             case 23:
-            this.lblTemperatur = ((System.Windows.Controls.Label)(target));
+            this.lblElevasi = ((System.Windows.Controls.Label)(target));
             return;
             case 24:
-            this.lblTekanan = ((System.Windows.Controls.Label)(target));
+            this.lblTemperatur = ((System.Windows.Controls.Label)(target));
             return;
             case 25:
-            this.lblYaw = ((System.Windows.Controls.Label)(target));
+            this.lblTekanan = ((System.Windows.Controls.Label)(target));
             return;
             case 26:
-            this.lblPitch = ((System.Windows.Controls.Label)(target));
+            this.lblKecepatan = ((System.Windows.Controls.Label)(target));
             return;
             case 27:
-            this.lblRoll = ((System.Windows.Controls.Label)(target));
+            this.lblYaw = ((System.Windows.Controls.Label)(target));
             return;
             case 28:
-            this.lblTimer = ((System.Windows.Controls.Label)(target));
+            this.lblPitch = ((System.Windows.Controls.Label)(target));
             return;
             case 29:
+            this.lblRoll = ((System.Windows.Controls.Label)(target));
+            return;
+            case 30:
+            this.lblTimer = ((System.Windows.Controls.Label)(target));
+            return;
+            case 31:
             this.btnRefresh = ((System.Windows.Controls.Button)(target));
             
-            #line 251 "..\..\MainWindow.xaml"
+            #line 255 "..\..\MainWindow.xaml"
             this.btnRefresh.Click += new System.Windows.RoutedEventHandler(this.btnRefresh_Click);
             
             #line default
             #line hidden
             return;
-            case 30:
+            case 32:
             this.gridButton = ((System.Windows.Controls.Grid)(target));
             return;
-            case 31:
+            case 33:
             this.btnPutus = ((System.Windows.Controls.Button)(target));
             
-            #line 313 "..\..\MainWindow.xaml"
+            #line 317 "..\..\MainWindow.xaml"
             this.btnPutus.Click += new System.Windows.RoutedEventHandler(this.btnPutus_Click);
             
             #line default
             #line hidden
             
-            #line 313 "..\..\MainWindow.xaml"
+            #line 317 "..\..\MainWindow.xaml"
             this.btnPutus.MouseEnter += new System.Windows.Input.MouseEventHandler(this.btnPutus_MouseEnter);
             
             #line default
             #line hidden
             
-            #line 313 "..\..\MainWindow.xaml"
+            #line 317 "..\..\MainWindow.xaml"
             this.btnPutus.MouseLeave += new System.Windows.Input.MouseEventHandler(this.btnPutus_MouseLeave);
             
             #line default
             #line hidden
             return;
-            case 32:
+            case 34:
             this.btnKirim = ((System.Windows.Controls.Button)(target));
             
-            #line 315 "..\..\MainWindow.xaml"
+            #line 319 "..\..\MainWindow.xaml"
             this.btnKirim.Click += new System.Windows.RoutedEventHandler(this.btnKirim_Click);
             
             #line default
             #line hidden
             return;
-            case 33:
+            case 35:
             this.btnCapture = ((System.Windows.Controls.Button)(target));
             
-            #line 316 "..\..\MainWindow.xaml"
+            #line 320 "..\..\MainWindow.xaml"
             this.btnCapture.Click += new System.Windows.RoutedEventHandler(this.btnCapture_Click);
             
             #line default
             #line hidden
             return;
-            case 34:
+            case 36:
             this.btnMission = ((System.Windows.Controls.Button)(target));
             
-            #line 319 "..\..\MainWindow.xaml"
+            #line 323 "..\..\MainWindow.xaml"
             this.btnMission.Click += new System.Windows.RoutedEventHandler(this.btnMission_Click);
             
             #line default
             #line hidden
             return;
-            case 35:
+            case 37:
             this.btnParasut = ((System.Windows.Controls.Button)(target));
             
-            #line 320 "..\..\MainWindow.xaml"
+            #line 324 "..\..\MainWindow.xaml"
             this.btnParasut.Click += new System.Windows.RoutedEventHandler(this.btnParasut_Click);
             
             #line default
             #line hidden
             return;
-            case 36:
+            case 38:
             this.launchButton = ((System.Windows.Controls.Button)(target));
             
-            #line 321 "..\..\MainWindow.xaml"
+            #line 325 "..\..\MainWindow.xaml"
             this.launchButton.Click += new System.Windows.RoutedEventHandler(this.launchButton_Click);
             
             #line default
             #line hidden
             return;
-            case 37:
+            case 39:
             this.tabLog = ((System.Windows.Controls.Grid)(target));
             return;
-            case 38:
+            case 40:
             this.datagridLog = ((System.Windows.Controls.DataGrid)(target));
             return;
-            case 39:
+            case 41:
             this.buttonexit = ((System.Windows.Controls.Button)(target));
             
-            #line 402 "..\..\MainWindow.xaml"
+            #line 406 "..\..\MainWindow.xaml"
             this.buttonexit.Click += new System.Windows.RoutedEventHandler(this.Buttonexit_Click);
             
             #line default
             #line hidden
             return;
-            case 40:
+            case 42:
             this.buttonMinimize = ((System.Windows.Controls.Button)(target));
             
-            #line 403 "..\..\MainWindow.xaml"
+            #line 407 "..\..\MainWindow.xaml"
             this.buttonMinimize.Click += new System.Windows.RoutedEventHandler(this.ButtonMinimize_Click);
             
             #line default
             #line hidden
             return;
-            case 41:
+            case 43:
             this.terminalText = ((System.Windows.Controls.TextBox)(target));
             
-            #line 458 "..\..\MainWindow.xaml"
+            #line 462 "..\..\MainWindow.xaml"
             this.terminalText.PreviewKeyDown += new System.Windows.Input.KeyEventHandler(this.terminalText_PreviewKeyDown);
             
             #line default
             #line hidden
             return;
-            case 42:
+            case 44:
             this.TinggiPlot = ((Microsoft.Research.DynamicDataDisplay.ChartPlotter)(target));
             return;
-            case 43:
+            case 45:
             this.AccPlot = ((Microsoft.Research.DynamicDataDisplay.ChartPlotter)(target));
             return;
-            case 44:
+            case 46:
             this.GyroPlot = ((Microsoft.Research.DynamicDataDisplay.ChartPlotter)(target));
             return;
-            case 45:
+            case 47:
             this.yprButton = ((System.Windows.Controls.Button)(target));
             
-            #line 502 "..\..\MainWindow.xaml"
+            #line 506 "..\..\MainWindow.xaml"
             this.yprButton.Click += new System.Windows.RoutedEventHandler(this.yprButton_Click);
             
             #line default
             #line hidden
             return;
-            case 46:
+            case 48:
             this.elevasiButton = ((System.Windows.Controls.Button)(target));
             
-            #line 503 "..\..\MainWindow.xaml"
+            #line 507 "..\..\MainWindow.xaml"
             this.elevasiButton.Click += new System.Windows.RoutedEventHandler(this.elevasiButton_Click);
             
             #line default
             #line hidden
             return;
-            case 47:
+            case 49:
             this.ketinggianButton = ((System.Windows.Controls.Button)(target));
             
-            #line 504 "..\..\MainWindow.xaml"
+            #line 508 "..\..\MainWindow.xaml"
             this.ketinggianButton.Click += new System.Windows.RoutedEventHandler(this.ketinggianButton_Click);
             
             #line default
             #line hidden
             return;
-            case 48:
+            case 50:
             this.Landasan3D = ((System.Windows.Controls.Viewport3D)(target));
             return;
-            case 49:
+            case 51:
             this.DefaultGroup = ((System.Windows.Media.Media3D.ModelVisual3D)(target));
             return;
-            case 50:
+            case 52:
             this.group = ((System.Windows.Media.Media3D.Model3DGroup)(target));
             return;
-            case 51:
+            case 53:
             this.rocket3D = ((System.Windows.Media.Media3D.GeometryModel3D)(target));
             return;
-            case 52:
+            case 54:
             this.GridMap = ((System.Windows.Controls.Grid)(target));
             return;
-            case 53:
+            case 55:
             this.MyMap = ((Microsoft.Maps.MapControl.WPF.Map)(target));
             return;
-            case 54:
+            case 56:
             this.lblLatitude = ((System.Windows.Controls.Label)(target));
             return;
-            case 55:
+            case 57:
             this.lblLongitude = ((System.Windows.Controls.Label)(target));
             return;
-            case 56:
+            case 58:
             this.logButton = ((System.Windows.Controls.Button)(target));
             
-            #line 2438 "..\..\MainWindow.xaml"
+            #line 2442 "..\..\MainWindow.xaml"
             this.logButton.Click += new System.Windows.RoutedEventHandler(this.logButton_Click);
             
             #line default
             #line hidden
             return;
-            case 57:
+            case 59:
             this.grafikLabel = ((System.Windows.Controls.Label)(target));
             return;
-            case 58:
+            case 60:
             this.visualButton = ((System.Windows.Controls.Button)(target));
             
-            #line 2440 "..\..\MainWindow.xaml"
+            #line 2444 "..\..\MainWindow.xaml"
             this.visualButton.Click += new System.Windows.RoutedEventHandler(this.visualButton_Click);
             
             #line default

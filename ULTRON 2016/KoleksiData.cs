@@ -15,6 +15,9 @@ namespace ULTRON_2016
             public float Roll { set; get; }
             public double Elevasi { set; get; }
             public double Tinggi { set; get; }
+            public double Kecepatanx { set; get; }
+            public double Kecepatany { set; get; }
+            public double Kecepatanz { set; get; }
             public double Suhu { set; get; }
             public double Tekanan { set; get; }
             public string Latitude { set; get; }
