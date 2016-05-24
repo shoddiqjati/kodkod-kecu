@@ -148,8 +148,8 @@ namespace ULTRON_2016
                             float.Parse(lblTemperatur.Content.ToString()),
                             float.Parse(lblTekanan.Content.ToString()),
                             float.Parse(lblElevasi.Content.ToString()),
-                            //float.Parse(lblLatitude.Content.ToString()),
-                            //float.Parse(lblLongitude.Content.ToString()),
+                            float.Parse(lblLatitude.Content.ToString()),
+                            float.Parse(lblLongitude.Content.ToString()),
                             float.Parse(lblYaw.Content.ToString()),
                             float.Parse(lblPitch.Content.ToString()),
                             float.Parse(lblRoll.Content.ToString()));
@@ -324,6 +324,7 @@ namespace ULTRON_2016
                 string[] data = pesan.Split(' ');
                 //int jumlData = data.Length;
 
+                //"ULTRON yaw pitch roll lat long altitude vx vy vz ax ay az pressure temperature"
                 if (data[0] == "ULTRON")// && kirimFlag) //&& jumlData == 7 && kirimFlag)
                 {
                     try
@@ -339,7 +340,7 @@ namespace ULTRON_2016
 
                                lblTimer.Content = FormatTime(stopwatch.Elapsed.Hours) + ":" + FormatTime(stopwatch.Elapsed.Minutes) + ":" + FormatTime(stopwatch.Elapsed.Seconds);
 
-                               mySensorLog.Yaw = float.Parse(data[4], System.Globalization.CultureInfo.InvariantCulture);
+                               mySensorLog.Yaw = float.Parse(data[1], System.Globalization.CultureInfo.InvariantCulture);
                                  lblYaw.Content = Math.Round(mySensorLog.Yaw, 2);
                                  barYaw.Width = 110 * (mySensorLog.Yaw + 180) / 360;
                                  //yawLog.Add(mySensorLog.Yaw);
@@ -348,7 +349,7 @@ namespace ULTRON_2016
                                  //mySensorLog.Yaw = float.Parse(data[1]);
                                  //yawLog.Add(mySensorLog.Yaw);
 
-                                 mySensorLog.Pitch = float.Parse(data[3], System.Globalization.CultureInfo.InvariantCulture);
+                                 mySensorLog.Pitch = float.Parse(data[2], System.Globalization.CultureInfo.InvariantCulture);
                                  lblPitch.Content = Math.Round(mySensorLog.Pitch, 2);
                                  barPitch.Width = 110 * (mySensorLog.Pitch + 180) / 360;
                                  //pitchLog.Add(mySensorLog.Pitch);
@@ -357,7 +358,7 @@ namespace ULTRON_2016
                                  //mySensorLog.Pitch = float.Parse(data[2]);
                                  //pitchLog.Add(mySensorLog.Pitch);
 
-                                 mySensorLog.Roll = float.Parse(data[2], System.Globalization.CultureInfo.InvariantCulture);
+                                 mySensorLog.Roll = float.Parse(data[3], System.Globalization.CultureInfo.InvariantCulture);
                                  lblRoll.Content = Math.Round(mySensorLog.Roll, 2);
                                  barRoll.Width = 110 * (mySensorLog.Roll + 180) / 360;
                                  //rollLog.Add(mySensorLog.Roll);
