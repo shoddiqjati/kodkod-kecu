@@ -324,7 +324,7 @@ namespace ULTRON_2016
                 string[] data = pesan.Split(' ');
                 //int jumlData = data.Length;
 
-                if (data[1] == "ULTRON")// && kirimFlag) //&& jumlData == 7 && kirimFlag)
+                if (data[0] == "ULTRON")// && kirimFlag) //&& jumlData == 7 && kirimFlag)
                 {
                     try
                     {

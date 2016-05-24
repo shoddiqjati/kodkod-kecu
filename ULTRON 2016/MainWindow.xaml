@@ -1,6 +1,7 @@
 ﻿<Window
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:m="clr-namespace:Microsoft.Maps.MapControl.WPF;assembly=Microsoft.Maps.MapControl.WPF"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Name="MainWindow1" x:Class="ULTRON_2016.MainWindow"
         xmlns:d3="http://research.microsoft.com/DynamicDataDisplay/1.0"     
     Title="MainWindow" Height="700" Width="1300" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None" Opacity="0.95" Foreground="{x:Null}" AllowsTransparency="True" Icon="icon.ico" Loaded="Window_Loaded" >
@@ -311,12 +312,12 @@
 
             <Button x:Name="btnPutus" Style="{DynamicResource button5}" Content="Terkoneksi ke " Height="24" VerticalAlignment="Top" HorizontalAlignment="Right" Width="100" FontSize="14" Click="btnPutus_Click" MouseEnter="btnPutus_MouseEnter" MouseLeave="btnPutus_MouseLeave" Margin="0,176,1028,0" FontFamily="Kozuka Gothic Pr6N H"/>
 
-            <Button x:Name="btnKirim" Style="{DynamicResource button5}" Content="Motor Awal" Width="120" FontFamily="Hobo Std" FontSize="18"  Click="btnKirim_Click" Margin="652,247,812,71"/>
-            <Button x:Name="btnCapture" Style="{DynamicResource button5}" Content="Capture" FontFamily="Hobo Std" Width="120" FontSize="18"  Click="btnCapture_Click" Margin="786,247,678,71"/>
+            <Button x:Name="btnKirim" Style="{DynamicResource button5}" Content="Motor Awal" Width="120" FontFamily="Hobo Std" FontSize="18"  Click="btnKirim_Click" Margin="436,247,1028,71"/>
+            <Button x:Name="btnCapture" Style="{DynamicResource button5}" Content="Capture" FontFamily="Hobo Std" Width="120" FontSize="18"  Click="btnCapture_Click" Margin="556,247,908,71"/>
 
 
             <Button x:Name="btnMission" Style="{DynamicResource button5}" Content="Mission" Width="120" FontFamily="Hobo Std" FontSize="18" Click="btnMission_Click" Margin="436,211,1028,109" BorderBrush="#FF53C5EF"/>
-            <Button x:Name="btnParasut" Style="{DynamicResource button5}" Content="Parasut" Width="120" FontFamily="Hobo Std" FontSize="18"  Click="btnParasut_Click" Margin="786,211,678,109"/>
+            <Button x:Name="btnParasut" Style="{DynamicResource button5}" Content="Parasut" Width="120" FontFamily="Hobo Std" FontSize="18"  Click="btnParasut_Click" Margin="556,211,908,109"/>
             <Button x:Name="launchButton" Style="{DynamicResource launchStyle}"  HorizontalAlignment="Left" Height="24" Margin="427,176,0,0" VerticalAlignment="Top" Width="24" Click="launchButton_Click" FontFamily="Hobo Std" FontSize="25">
                 <Button.Resources>
                     <Style x:Key="FocusVisual">
@@ -454,7 +455,7 @@
         <Image HorizontalAlignment="Left" Height="60" Margin="198,58,0,0" VerticalAlignment="Top" Width="114" Source="logo.png"/>
 
 
-        <TextBox x:Name="terminalText" AcceptsReturn="True" PreviewKeyDown="terminalText_PreviewKeyDown"  VerticalScrollBarVisibility="Auto" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="172" Width="395" Foreground="#FF008CCF" Padding="5" FontFamily="Roboto" BorderBrush="#FF008CCF" BorderThickness="1" SelectionBrush="{x:Null}" FontSize="10" Margin="836,469,0,0">
+        <TextBox x:Name="terminalText" AcceptsReturn="True" PreviewKeyDown="terminalText_PreviewKeyDown"  VerticalScrollBarVisibility="Auto" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="96" Width="305" Foreground="#FF008CCF" Padding="5" FontFamily="Roboto" BorderBrush="#FF008CCF" BorderThickness="1" SelectionBrush="{x:Null}" FontSize="10" Margin="324,546,0,0">
             <TextBox.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FF0F0C0C" Offset="0"/>
@@ -2423,7 +2424,14 @@
                 </ModelVisual3D.Content>
             </ModelVisual3D>
         </Viewport3D>
-        <Label Content="Terminal" HorizontalAlignment="Left" Height="25" Margin="836,445,0,0" VerticalAlignment="Top" Width="88" Foreground="#FF318FCB" FontFamily="Lucida Console" FontSize="15" Background="#FF0F0C0C" BorderBrush="#FF0186C6" BorderThickness="1,1,1,0">
+        <Grid x:Name="GridMap" Width="595" Margin="0,10,0,0" Height="206">
+            <m:Map x:Name="MyMap" CredentialsProvider="AvjWVfC37-4vYI8-0pPJV2pj1DfsZ1YtEEid0EE137or_spv_i13jqR7cXm4Fzbl" ZoomLevel="14" Center="-7.654120, 107.689265" Margin="484,193,-282,-183"/>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Top" Height="25" Background="#FFBAA378" Opacity="0.7" Margin="0,203,-271,-22" Width="134">
+                <Label x:Name="lblLatitude"  Content="-7.123456" Foreground="Black" />
+                <Label x:Name="lblLongitude" Content="107.123456"  Foreground="Black" Margin="0,0,10,0" />
+            </StackPanel>
+        </Grid>
+        <Label Content="Terminal" HorizontalAlignment="Left" Height="22" Margin="324,524,0,0" VerticalAlignment="Top" Width="85" Foreground="#FF318FCB" FontFamily="Lucida Console" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="10" Background="#FF0F0C0C" BorderBrush="#FF0186C6" BorderThickness="1,1,1,0">
 
         </Label>
         <Label Content="Graph &gt;&gt;" HorizontalAlignment="Left" Height="32" Margin="634,131,0,0" VerticalAlignment="Top" Width="62" Foreground="#FF0186C6" Background="#FF0F0C0C" BorderBrush="#FF0186C6" BorderThickness="0,1,0,0"/>
