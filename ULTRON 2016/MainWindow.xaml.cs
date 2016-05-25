@@ -73,6 +73,9 @@ namespace ULTRON_2016
         private bool captureFlag = false;
         private bool kirimFlag = false;
 
+        private float dataLat;
+        private float dataLong;
+
         string logFileName = String.Empty;
         //private string Latlat = "0";
         //private string Longlon = "0";
@@ -342,9 +345,9 @@ namespace ULTRON_2016
                                 terminalText.CaretIndex = terminalText.Text.Length;
                                 terminalText.ScrollToEnd();
 
-                               lblTimer.Content = FormatTime(stopwatch.Elapsed.Hours) + ":" + FormatTime(stopwatch.Elapsed.Minutes) + ":" + FormatTime(stopwatch.Elapsed.Seconds);
+                                lblTimer.Content = FormatTime(stopwatch.Elapsed.Hours) + ":" + FormatTime(stopwatch.Elapsed.Minutes) + ":" + FormatTime(stopwatch.Elapsed.Seconds);
 
-                               mySensorLog.Yaw = float.Parse(data[1], System.Globalization.CultureInfo.InvariantCulture);
+                                 mySensorLog.Yaw = float.Parse(data[1], System.Globalization.CultureInfo.InvariantCulture);
                                  lblYaw.Content = Math.Round(mySensorLog.Yaw, 2);
                                  barYaw.Width = 110 * (mySensorLog.Yaw + 180) / 360;
                                  //yawLog.Add(mySensorLog.Yaw);
@@ -367,28 +370,20 @@ namespace ULTRON_2016
                                  barRoll.Width = 110 * (mySensorLog.Roll + 180) / 360;
                                  //rollLog.Add(mySensorLog.Roll);
 
-                                 //lblRoll.Content = data[2];// + " deg";
-                                 //try
-                                 //{
-                                 //    mySensorLog.Roll = float.Parse(data[2]);
-                                 //    rollLog.Add(mySensorLog.Roll);
-                                 //}
-                                 //catch (Exception) { }
-
                                  mySensorLog.Tinggi = float.Parse(data[6], System.Globalization.CultureInfo.InvariantCulture);
                                  lblKetinggian.Content = Math.Round(mySensorLog.Tinggi, 2);
                                  barKetinggian.Width = 110 * mySensorLog.Tinggi / 50;
                                 //tinggiLog.Add(mySensorLog.Tinggi);
-                                mySensorLog.Kecepatanx = float.Parse(data[7], System.Globalization.CultureInfo.InvariantCulture);
-                                mySensorLog.Kecepatany = float.Parse(data[8], System.Globalization.CultureInfo.InvariantCulture);
-                                mySensorLog.Kecepatanz = float.Parse(data[9], System.Globalization.CultureInfo.InvariantCulture);
-                                double Kecepatan;
-                                Kecepatan = Math.Sqrt((Math.Pow(mySensorLog.Kecepatanx , 2 ) + Math.Pow(mySensorLog.Kecepatany,2)) + Math.Pow(mySensorLog.Kecepatanz,2));
-                                lblKecepatan.Content = Math.Round(Kecepatan, 2);
-                                barKecepatan.Width = 110 * Kecepatan / 50;
+                                 mySensorLog.Kecepatanx = float.Parse(data[7], System.Globalization.CultureInfo.InvariantCulture);
+                                 mySensorLog.Kecepatany = float.Parse(data[8], System.Globalization.CultureInfo.InvariantCulture);
+                                 mySensorLog.Kecepatanz = float.Parse(data[9], System.Globalization.CultureInfo.InvariantCulture);
+                                 double Kecepatan;
+                                 Kecepatan = Math.Sqrt((Math.Pow(mySensorLog.Kecepatanx , 2 ) + Math.Pow(mySensorLog.Kecepatany,2)) + Math.Pow(mySensorLog.Kecepatanz,2));
+                                 lblKecepatan.Content = Math.Round(Kecepatan, 2);
+                                 barKecepatan.Width = 110 * Kecepatan / 50;
                                 //tinggiLog.Add(mySensorLog.Tinggi);
 
-                                mySensorLog.Tekanan = float.Parse(data[13], System.Globalization.CultureInfo.InvariantCulture);
+                                 mySensorLog.Tekanan = float.Parse(data[13], System.Globalization.CultureInfo.InvariantCulture);
                                  lblTekanan.Content = Math.Round(mySensorLog.Tekanan, 2);
                                  barTekanan.Width = 110 * mySensorLog.Tekanan / 100;
                                  //tekananLog.Add(mySensorLog.Tekanan);
@@ -401,7 +396,19 @@ namespace ULTRON_2016
                                  lblElevasi.Content = 90 - Math.Abs(float.Parse(data[2], System.Globalization.CultureInfo.InvariantCulture));
                                  mySensorLog.Elevasi = float.Parse(lblElevasi.Content.ToString());
                                  barElevasi.Width = 110 * (mySensorLog.Elevasi + 180) / 360;
-                                 //elevasiLog.Add(mySensorLog.Elevasi);
+                                //elevasiLog.Add(mySensorLog.Elevasi);
+
+                                mySensorLog.Latitude = float.Parse(data[4], System.Globalization.CultureInfo.InvariantCulture).ToString();
+                                mySensorLog.Longitude = float.Parse(data[5], System.Globalization.CultureInfo.InvariantCulture).ToString();
+
+                                dataLat = float.Parse(mySensorLog.Latitude);
+                                dataLong = float.Parse(mySensorLog.Longitude);
+
+                                MyMap.Center.Latitude = dataLat;
+                                lblLatitude.Content = dataLat;
+
+                                MyMap.Center.Longitude = dataLong;
+                                lblLongitude.Content = dataLong;
 
                                  putar_Rocket3D();
                             }
@@ -782,7 +789,7 @@ namespace ULTRON_2016
             //{
             try
             {
-                //konekin.NewSerialDataReceived += konekin_NewSerialDataReceived;
+                konekin.NewSerialDataReceived += konekin_NewSerialDataReceived;
                 konekin.buka();
                  if (Komunikasi.Default.terkoneksi)
                  {
